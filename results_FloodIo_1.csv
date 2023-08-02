@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1690973592019,3544,S01_FL_Launch,200,"Number of samples in transaction : 2, number of failing samples : 0",S01_FloodIO 1-1,,true,,6785,1839,1,1,null,0,132,897
+1690973592132,2705,S01_FL_Launch-3,200,OK,S01_FloodIO 1-1,text,true,,3561,710,1,1,https://training.flooded.io:443/,622,0,335
+1690973592132,623,S01_FL_Launch-3-0,301,Moved Permanently,S01_FloodIO 1-1,text,true,,339,353,1,1,http://training.flooded.io/,622,0,335
+1690973592760,2077,S01_FL_Launch-3-1,200,OK,S01_FloodIO 1-1,text,true,,3222,357,1,1,https://training.flooded.io:443/,2074,0,1784
+1690973594846,839,S01_FL_Launch-4,200,OK,S01_FloodIO 1-1,text,true,,3224,1129,1,1,https://training.flooded.io/,838,0,562
+1690973601435,573,S01_FL_Start,200,"Number of samples in transaction : 1, number of failing samples : 0",S01_FloodIO 1-1,,true,,3554,2817,1,1,null,0,790,0
+1690973601437,573,S01_FL_Start-0,200,OK,S01_FloodIO 1-1,text,true,,3554,2817,1,1,https://training.flooded.io/step/2,287,0,0
+1690973601437,287,S01_FL_Start-0-0,302,Found,S01_FloodIO 1-1,text,true,,1133,1550,1,1,https://training.flooded.io/start,287,0,0
+1690973601725,285,S01_FL_Start-0-1,200,OK,S01_FloodIO 1-1,text,true,,2421,1267,1,1,https://training.flooded.io/step/2,284,0,0
+1690973610640,749,S01_FL_Step_2,200,"Number of samples in transaction : 1, number of failing samples : 0",S01_FloodIO 1-1,,true,,4150,2851,1,1,null,0,478,0
+1690973610641,749,S01_FL_Step_2-0,200,OK,S01_FloodIO 1-1,text,true,,4150,2851,1,1,https://training.flooded.io/step/3,462,0,0
+1690973610641,462,S01_FL_Step_2-0-0,302,Found,S01_FloodIO 1-1,text,true,,1133,1578,1,1,https://training.flooded.io/start,462,0,0
+1690973611105,285,S01_FL_Step_2-0-1,200,OK,S01_FloodIO 1-1,text,true,,3017,1273,1,1,https://training.flooded.io/step/3,285,0,0
+1690973619633,618,S01_FL_Step_3,200,"Number of samples in transaction : 1, number of failing samples : 0",S01_FloodIO 1-1,,true,,3190,3006,1,1,null,0,6,0
+1690973619634,618,S01_FL_Step_3-0,200,OK,S01_FloodIO 1-1,text,true,,3190,3006,1,1,https://training.flooded.io/step/4,341,0,0
+1690973619634,341,S01_FL_Step_3-0-0,302,Found,S01_FloodIO 1-1,text,true,,1133,1733,1,1,https://training.flooded.io/start,341,0,0
+1690973619976,276,S01_FL_Step_3-0-1,200,OK,S01_FloodIO 1-1,text,true,,2057,1273,1,1,https://training.flooded.io/step/4,276,0,0
+1690973625573,1124,S01_FL_Step_4,200,"Number of samples in transaction : 3, number of failing samples : 0",S01_FloodIO 1-1,,true,,6527,5449,1,1,null,0,10,0
+1690973625574,575,S01_FL_Step_4-0,200,OK,S01_FloodIO 1-1,text,true,,3292,3182,1,1,https://training.flooded.io/step/5,290,0,0
+1690973625574,290,S01_FL_Step_4-0-0,302,Found,S01_FloodIO 1-1,text,true,,1133,1909,1,1,https://training.flooded.io/start,290,0,0
+1690973625866,283,S01_FL_Step_4-0-1,200,OK,S01_FloodIO 1-1,text,true,,2159,1273,1,1,https://training.flooded.io/step/5,283,0,0
+1690973626152,276,S01_FL_Step_4-1,200,OK,S01_FloodIO 1-1,text,true,,2157,1187,1,1,https://training.flooded.io/step/5,275,0,0
+1690973626431,273,S01_FL_Step_4-2,200,OK,S01_FloodIO 1-1,text,true,,1078,1080,1,1,https://training.flooded.io/code,273,0,0
+1690973633645,565,S01_FL_Step_5,200,"Number of samples in transaction : 1, number of failing samples : 0",S01_FloodIO 1-1,,true,,3087,2868,1,1,null,0,2,0
+1690973633646,565,S01_FL_Step_5-0,200,OK,S01_FloodIO 1-1,text,true,,3087,2868,1,1,https://training.flooded.io/done,289,0,0
+1690973633646,289,S01_FL_Step_5-0-0,302,Found,S01_FloodIO 1-1,text,true,,1128,1597,1,1,https://training.flooded.io/start,289,0,0
+1690973633936,275,S01_FL_Step_5-0-1,200,OK,S01_FloodIO 1-1,text,true,,1959,1271,1,1,https://training.flooded.io/done,275,0,0
+1690973640791,290,S01_FL_StartAgain,200,"Number of samples in transaction : 1, number of failing samples : 0",S01_FloodIO 1-1,,true,,3224,1124,1,1,null,0,3,0
+1690973640792,290,S01_FL_StartAgain-0,200,OK,S01_FloodIO 1-1,text,true,,3224,1124,1,1,https://training.flooded.io/,290,0,0
+1690973647794,24,Debug Sampler,200,OK,S01_FloodIO 1-1,text,true,,10414,0,1,1,null,0,0,0
